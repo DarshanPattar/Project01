@@ -1,0 +1,119 @@
+body{
+    margin : 0px;
+    padding : 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Logo */
+
+.logo{
+    position:fixed;
+    z-index: 1;
+    padding:25px;
+    background-color: black;
+    left: 50px;
+    top:20px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.logo2{
+    position:fixed;
+    z-index: 2;
+    padding:25px;
+    background-color: rgb(35, 124, 0);
+    left: 60px;
+    top:30px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    position:fixed;
+    width: 100%;
+    background-color: rgb(255, 51, 51);
+    justify-content: space-evenly;
+}
+
+.logo-name{
+    padding: 10px;
+    margin-left: 30px;
+    background-color: rgb(206, 10, 10);
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.navitems{
+    display: flex;
+    padding: 15px;
+}
+
+.navbar{
+    justify-content: space-evenly;
+}
+
+.nitem{
+    list-style: none;
+    padding: 10px;
+}
+
+.nitem :hover{
+    background-color: rgb(206, 10, 10);
+}
+
+a{
+    text-decoration: none;
+    padding:10px;
+    color:aliceblue;
+}
+
+/* Sidebar */
+
+.sideunit{
+    position: fixed;
+    display: flex;
+    top:100px;
+    height:100%;
+}
+
+.sidebar{
+    padding:10px;
+    height:100%;
+    background-color: rgb(255, 51, 51);
+}
+
+.sideitems{
+    padding:10px;
+}
+
+.sidelist{
+    list-style: none;
+    margin:0px;
+}
+
+.sidechoice{
+    padding: 10px;
+}
+
+.sidechoice :hover{
+    background-color: rgb(206, 10, 10);
+}
+
+/* Container */
+
+.container{
+    position:absolute;
+    z-index: -2;
+    left: 25%;
+    top: 20%;
+    background-color: rgb(255, 231, 227);
+    padding:10px;
+    height:100%;
+    width:50%;
+}
+
+
