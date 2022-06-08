@@ -101,19 +101,69 @@ a{
 
 .sidechoice :hover{
     background-color: rgb(206, 10, 10);
+    transition-duration: .5s;
 }
 
 /* Container */
 
 .container{
-    position:absolute;
+    position:fixed;
     z-index: -2;
     left: 25%;
     top: 20%;
     background-color: rgb(255, 231, 227);
-    padding:10px;
+    padding:30px;
     height:100%;
-    width:50%;
+    width:60%;
+
+    overflow:auto;
 }
 
+/* Cards */
 
+.cardholder{
+    position: relative;
+    padding:10px;
+    box-shadow: 10px 15px 8px rgb(163, 163, 163);
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.cardtitle{
+    font-size: 25px;
+    padding:10px;
+}
+
+.cardimage{
+    padding:10px;
+}
+
+img{
+    width:100%;
+    height:auto;
+    object-fit: contain;
+}
+
+.cardDescription{
+    padding:10px;
+}
+
+.interactable{
+    display: flex;
+}
+
+.intercom{
+    list-style: none;
+    padding:10px;
+}
+
+.intercom :hover{
+    background-color: grey;
+    border-radius: 10px;
+    transition-duration:  .5s;
+}
+
+.cardlink{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
